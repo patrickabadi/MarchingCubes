@@ -38,7 +38,7 @@ Dynamic optimized mesh-generating Marching Cubes algorithm.  The goal of this pr
 - Press spacebar to move to the next frame
 - Press 's' to end early
 
-<img src="./Screenshots/screenshot.png"/>
+<img src="./screenshots/screenshot.png"/>
 
 ## Algorithm explained
 - Incoming points are placed into a virtualized voxel grid.  This saves on space and allows it to be updated on subsequent incoming points, without having to recreate the voxel grid.
