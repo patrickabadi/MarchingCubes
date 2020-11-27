@@ -43,7 +43,7 @@ Dynamic optimized mesh-generating Marching Cubes algorithm.  The goal of this pr
 ## Algorithm explained
 - Incoming points are placed into a virtualized voxel grid.  This saves on space and allows it to be updated on subsequent incoming points, without having to recreate the voxel grid.
 - Points added to each voxel grid now become vertices in a cube grid.  Every added point in the voxel grid can affect up to 8 cubes in the cube grids so they need to be checked
-- Followed the following for the efficient generation of triangle faces [http://paulbourke.net/geometry/polygonise/](http://paulbourke.net/geometry/polygonise/)
+- Followed this example for efficient generation of triangle faces [http://paulbourke.net/geometry/polygonise/](http://paulbourke.net/geometry/polygonise/)
 
 ## Contributers
 - Patrick Abadi [https://github.com/patrickabadi](https://github.com/patrickabadi)
